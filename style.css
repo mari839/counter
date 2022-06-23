@@ -1,0 +1,36 @@
+:root {
+    --mono: "Oxygen mono", monospace;
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: var(--mono);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background: #296B5E;
+}
+button{
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+button:hover{
+    background: #dedddc;
+}
+h1, h2{
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 50px;
+}
